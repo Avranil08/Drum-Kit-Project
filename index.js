@@ -1,45 +1,5 @@
-// document.querySelector('button').addEventListener('click', handleClick);
-// function handleClick() {
-//   alert('I got clicked');
-// }
 
-//Or
-// document
-//   .querySelector('button')
-//   .addEventListener('click', function () {
-//     alert('I got clicked');
-//   });
 
-//Javascript object
-// var housekeeper1 = {
-//     yearsOfExperience: 12,
-//     name: "Jane",
-//     cleaningRepertoire: ["bathroom","lobby","bedroom"];
-// moveSuitcase: function() {
-//     alert("Mai I take your suitcase");
-//     pickUpSuitcase();
-//     move();
-// }
-// }
-// Call Method
-// housekeeper1.moveSuitcase();
-
-//Constructor Functions
-// function BellBoy(name,age,hasWorkPermit,languages)
-// {
-//     this.name = name;
-//     this.age = age;
-//     this.hasWorkPermit = hasWorkPermit;
-//     this.languages = languages;
-// this.moveSuitcase = function() {
-//     alert("Mai I take your suitcase");
-//     pickUpSuitcase();
-//         move();
-// }
-// }
-
-//Creating object
-// var bellBoy1 = new BellBoy("Timmy",19,true,["French","English"]);
 
 //Detecting button click
 for (var i = 0; i < document.querySelectorAll('.drum').length; i++) {
